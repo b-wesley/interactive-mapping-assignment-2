@@ -4,14 +4,103 @@ body {
   
 }
 
+#aquarium-billboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(30, 229, 206);
+  gap: 20px;
+  max-width: 500px;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+#fish-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+}
+
+#donations { 
+  display: flex;
+  position: fixed;
+  left: 50%;
+  bottom: 1px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  
+  
+  background-color: rgb(22, 0, 166);
+  border-radius: 12px;
+}
+
+
 h1 {
   color: white;
+  text-align: center;
+
 }
 
-h2 {
+#donations h2 {
   color: white;
+  text-align: center;
+
+  padding: 10px;
 }
 
-h3 {
+#donations h3 {
   color: yellow;
+  text-align: center;
+ 
+}
+
+/*
+Button 28 from: https://getcssscan.com/css-buttons-examples
+*/
+
+.button-28 {
+  appearance: none;
+  background-color: aqua;
+  border: 2px solid #2b0151;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #080358;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+  background-color: white;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #4b0088;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
 }

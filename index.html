@@ -16,34 +16,44 @@
 </style>
 
 <body>
-  <h1>WELCOME TO THE AQUARIUM :)</h1>
-  
-  <div class="fishies">
-    
-
-  <button class="shark_button" id="button" onclick="gimme_sharks()">
-    CLICK FOR SHARKS!
-  </button>
-
-  <button class="squid_button" id="button" onclick="show_me_squids()">
-    LOOK AT SQUIDS!
-  </button>
-
-  <button class="reef_button" id="button" onclick="go_to_the_reef()">
-    PEEP THE REEF!
-  </button>
-
-  <button class="blob_button" id="button" onclick="meet_the_blob()">
-    MEET THE BLOB!
-  </button>  
-    <button class="catfish_button" id="button" onclick="cat_fish()">
-    SEE THE CATFISH!
-  </button>  
+  <div id="aquarium-billboard">
+    <h1>WELCOME TO THE AQUARIUM :)</h1>
   </div>
 
-  <h2> DONATE TO KEEP OUR AQUARIUM RUNNING</h2>
-  <h3>VENMO @Brant-Wesley </h2>
+  <div id="fish-buttons">
+    <button class="button-28" id="button" onclick="gimme_sharks()">
+      CLICK FOR SHARKS!
+    </button>
 
+    <button class="button-28" id="button" onclick="show_me_squids()">
+      LOOK AT SQUIDS!
+    </button>
+
+    <button class="button-28" id="button" onclick="go_to_the_reef()">
+      PEEP THE REEF!
+    </button>
+
+    <button class="button-28" id="button" onclick="meet_the_blob()">
+      MEET THE BLOB!
+    </button>  
+    
+    <button class="button-28" id="button" onclick="cat_fish()">
+      SEE THE CATFISH!
+    </button>  
+  </div>
+
+  <div id="donations">
+    <table>
+      <thead>
+      <tr><td><h2> DONATE TO KEEP OUR AQUARIUM RUNNING</h2></td></tr>
+      </thead>
+      <tbody>
+      <tr><td><h3>VENMO @Brant-Wesley</h3></td> </tr>
+      </tbody>
+      
+    </table>
+  </div>
+  
   <script src="scripts.js"></script>
 </body>
 
